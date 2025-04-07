@@ -82,7 +82,7 @@
             @endforeach
 
         </div><!-- /.row -->
-
+        {{ $products->links() }}
         <hr class="featurette-divider">
 
     </div><!-- /.container -->
